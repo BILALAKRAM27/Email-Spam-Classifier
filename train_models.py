@@ -21,10 +21,7 @@ print("\nEmail number range:", email_numbers.min(), "to", email_numbers.max())
 
 
 spam_threshold = 2500
-y = np.where(email_numbers > spam_threshold, 1, 0)  
-print("\nLabel distribution:")
-print("Non-spam (0):", sum(y == 0))
-print("Spam (1):", sum(y == 1))
+y = np.where(email_numbers <= spam_threshold, 1, 0)  # Changed > to <= to fix label assignment
 print("\nLabel distribution:")
 print("Non-spam (0):", sum(y == 0))
 print("Spam (1):", sum(y == 1))
