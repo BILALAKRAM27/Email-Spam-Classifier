@@ -157,6 +157,6 @@ Feel free to:
 
 ## 🙏 Acknowledgments
 
-- Dataset source: [[Your dataset source]](https://www.kaggle.com/datasets/venky73/spam-mails-dataset)
+- Dataset source: [mail.csv](https://www.kaggle.com/datasets/venky73/spam-mails-dataset)
 - LIME package for explanations
 - Streamlit for the web interface
