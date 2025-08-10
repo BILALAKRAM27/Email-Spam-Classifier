@@ -154,12 +154,9 @@ Feel free to:
 - Suggest features
 - Submit pull requests
 
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🙏 Acknowledgments
 
-- Dataset source: [Your dataset source]
+- Dataset source: [[Your dataset source]](https://www.kaggle.com/datasets/venky73/spam-mails-dataset)
 - LIME package for explanations
 - Streamlit for the web interface
